@@ -7,7 +7,7 @@
     "@babel/preset-env": "^7.12.7",
     "@bugsnag/js": "^7.5.3",
     "@rails/ujs": "^6.1.0",
-    "@rails/webpacker": "^5.2.1",
+    "@rails/webpacker": "^5.4.3",
     "babel-loader": "^8.2.2",
     "babel-preset-minify": "^0.5.1",
     "gsap": "^3.6.0",
