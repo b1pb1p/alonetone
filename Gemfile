@@ -6,7 +6,7 @@ end
 
 gem 'rails', '6.1.0'
 gem 'mysql2'
-gem 'puma'
+gem 'puma', '>= 5.5.1'
 
 gem 'thredded', github: 'sudara/thredded'
 
