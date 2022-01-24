@@ -356,7 +356,7 @@ GEM
     rb-gravatar (1.0.6)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    redis (4.3.1)
+    redis (4.5.1)
     regexp_parser (2.1.1)
     request_store (1.5.0)
       rack (>= 1.4)
@@ -431,7 +431,7 @@ GEM
       rubyzip (>= 1.2.2)
     semantic_range (3.0.0)
     shellany (0.0.1)
-    sidekiq (6.2.1)
+    sidekiq (6.4.0)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
@@ -537,7 +537,7 @@ DEPENDENCIES
   sass-rails
   scrypt
   selenium-webdriver
-  sidekiq
+  sidekiq (>= 6.4.0)
   skylight (~> 5.0.0.beta)
   sometimes
   thredded!
