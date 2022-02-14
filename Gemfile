@@ -4,9 +4,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '6.1.0'
+gem 'rails', '6.1.4.6'
 gem 'mysql2'
-gem 'puma'
+gem 'puma', '>= 5.6.2'
 
 gem 'thredded', github: 'sudara/thredded'
 
@@ -23,7 +23,7 @@ gem 'mime-types'
 gem 'ruby-audio'
 gem 'ruby-mp3info', require: 'mp3info'
 gem 'rubyzip'
-gem 's3_direct_upload'
+gem 's3_direct_upload', '>= 0.1.7'
 
 # active record
 gem 'acts_as_list'
@@ -41,11 +41,11 @@ gem 'pagy'
 
 # external services
 gem 'rakismet'
-gem 'postmark-rails'
+gem 'postmark-rails', '>= 0.21.0'
 
 # frontend
-gem 'webpacker'
-gem 'sass-rails'
+gem 'webpacker', '>= 5.4.0'
+gem 'sass-rails', '>= 6.0.0'
 gem 'yui-compressor'
 gem 'turbolinks'
 
@@ -74,14 +74,14 @@ group :test do
   gem 'guard-rspec', require: false
   gem 'listen', require: false
   gem 'percy-capybara'
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 1.0.5'
   gem 'rb-fsevent', require: false
   gem 'rspec', require: false
   gem 'rspec-core', require: false
   gem 'rspec-expectations', require: false
   gem 'rspec-mocks', require: false
   gem 'rspec-support', require: false
-  gem 'rspec-rails', require: false
+  gem 'rspec-rails', '>= 5.0.1', require: false
   gem 'selenium-webdriver'
   gem 'webmock', require: false
 end
