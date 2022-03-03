@@ -18,7 +18,7 @@ gem 'awesome_print', require: 'ap'
 gem 'http-2' # used by AWS SDK but not in dependencies
 gem 'aws-sdk-cloudfront'
 gem 'aws-sdk-s3'
-gem 'image_processing'
+gem 'image_processing', '>= 1.12.2'
 gem 'mime-types'
 gem 'ruby-audio'
 gem 'ruby-mp3info', require: 'mp3info'
