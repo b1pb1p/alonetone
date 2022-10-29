@@ -32,7 +32,7 @@ gem 'scrypt' # for authlogic
 gem 'request_store' # for authlogic
 
 # view
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.9'
 gem 'commonmarker'
 gem 'country_select'
 gem 'dynamic_form'
@@ -54,7 +54,7 @@ gem 'bugsnag'
 gem 'oas_agent', github: 'wjessop/oas_agent'
 gem 'newrelic_rpm'
 gem 'skylight', '~>5.0.0.beta'
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.0'
 gem 'dalli'
 
 group :development do
