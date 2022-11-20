@@ -55,7 +55,7 @@ gem 'oas_agent', github: 'wjessop/oas_agent'
 gem 'newrelic_rpm'
 gem 'skylight', '~>5.0.0.beta'
 gem 'sidekiq'
-gem 'dalli'
+gem 'dalli', '>= 3.2.3'
 
 group :development do
   gem 'perf_check', require: false
