@@ -4,7 +4,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '6.1.0'
+gem 'rails', '6.1.7.1'
 gem 'mysql2'
 gem 'puma'
 
@@ -53,7 +53,7 @@ gem 'turbolinks'
 gem 'bugsnag'
 gem 'oas_agent', github: 'wjessop/oas_agent'
 gem 'newrelic_rpm'
-gem 'skylight', '~>5.0.0.beta'
+gem 'skylight', '~> 5.0.1.0'
 gem 'sidekiq'
 gem 'dalli'
 
