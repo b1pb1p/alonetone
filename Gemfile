@@ -4,9 +4,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '6.1.0'
+gem 'rails', '6.1.7.3'
 gem 'mysql2'
-gem 'puma'
+gem 'puma', '>= 5.6.4'
 
 gem 'thredded', github: 'sudara/thredded'
 
@@ -18,7 +18,7 @@ gem 'awesome_print', require: 'ap'
 gem 'http-2' # used by AWS SDK but not in dependencies
 gem 'aws-sdk-cloudfront'
 gem 'aws-sdk-s3'
-gem 'image_processing'
+gem 'image_processing', '>= 1.12.2'
 gem 'mime-types'
 gem 'ruby-audio'
 gem 'ruby-mp3info', require: 'mp3info'
@@ -32,8 +32,8 @@ gem 'scrypt' # for authlogic
 gem 'request_store' # for authlogic
 
 # view
-gem 'nokogiri'
-gem 'commonmarker'
+gem 'nokogiri', '>= 1.13.9'
+gem 'commonmarker', '>= 0.23.7'
 gem 'country_select'
 gem 'dynamic_form'
 gem 'local_time'
@@ -53,9 +53,9 @@ gem 'turbolinks'
 gem 'bugsnag'
 gem 'oas_agent', github: 'wjessop/oas_agent'
 gem 'newrelic_rpm'
-gem 'skylight', '~>5.0.0.beta'
-gem 'sidekiq'
-gem 'dalli'
+gem 'skylight', '~> 5.0.1.0'
+gem 'sidekiq', '>= 7.0.0'
+gem 'dalli', '>= 3.2.3'
 
 group :development do
   gem 'perf_check', require: false
