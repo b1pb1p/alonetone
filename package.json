@@ -4,7 +4,7 @@
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-transform-runtime": "^7.12.1",
-    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-env": "^7.22.6",
     "@bugsnag/js": "^7.5.3",
     "@rails/ujs": "^6.1.0",
     "@rails/webpacker": "^5.2.1",
