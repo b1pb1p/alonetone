@@ -161,7 +161,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     colorize (0.8.1)
-    commonmarker (0.22.0)
+    commonmarker (0.23.10)
     concurrent-ruby (1.1.9)
     connection_pool (2.2.5)
     countries (3.1.0)
@@ -495,7 +495,7 @@ DEPENDENCIES
   aws-sdk-s3
   bugsnag
   capybara
-  commonmarker
+  commonmarker (>= 0.23.10)
   country_select
   dalli
   dynamic_form

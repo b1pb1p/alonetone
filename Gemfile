@@ -33,7 +33,7 @@ gem 'request_store' # for authlogic
 
 # view
 gem 'nokogiri'
-gem 'commonmarker'
+gem 'commonmarker', '>= 0.23.10'
 gem 'country_select'
 gem 'dynamic_form'
 gem 'local_time'
