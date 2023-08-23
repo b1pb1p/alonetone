@@ -4,7 +4,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '6.1.0'
+gem 'rails', '6.1.7.5'
 gem 'mysql2'
 gem 'puma'
 
@@ -26,7 +26,7 @@ gem 'rubyzip'
 gem 's3_direct_upload'
 
 # active record
-gem 'acts_as_list'
+gem 'acts_as_list', '>= 1.1.0'
 gem 'authlogic', github: 'sudara/authlogic', branch: 'rails6-1'
 gem 'scrypt' # for authlogic
 gem 'request_store' # for authlogic
@@ -41,10 +41,10 @@ gem 'pagy'
 
 # external services
 gem 'rakismet'
-gem 'postmark-rails'
+gem 'postmark-rails', '>= 0.22.0'
 
 # frontend
-gem 'webpacker'
+gem 'webpacker', '>= 5.4.1'
 gem 'sass-rails'
 gem 'yui-compressor'
 gem 'turbolinks'
@@ -53,13 +53,13 @@ gem 'turbolinks'
 gem 'bugsnag'
 gem 'oas_agent', github: 'wjessop/oas_agent'
 gem 'newrelic_rpm'
-gem 'skylight', '~>5.0.0.beta'
+gem 'skylight', '~> 5.1.1.0'
 gem 'sidekiq'
 gem 'dalli'
 
 group :development do
   gem 'perf_check', require: false
-  gem 'annotate', require: false
+  gem 'annotate', '>= 3.2.0', require: false
   gem 'faker', require: false
   # Available "channels" of rubocop for code climate:
   # https://github.com/codeclimate/codeclimate-rubocop/branches/all?utf8=✓&query=channel%2Frubocop
@@ -81,7 +81,7 @@ group :test do
   gem 'rspec-expectations', require: false
   gem 'rspec-mocks', require: false
   gem 'rspec-support', require: false
-  gem 'rspec-rails', require: false
+  gem 'rspec-rails', '>= 5.0.2', require: false
   gem 'selenium-webdriver'
   gem 'webmock', require: false
 end
