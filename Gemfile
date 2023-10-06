@@ -4,7 +4,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '6.1.0'
+gem 'rails', '7.1.0'
 gem 'mysql2'
 gem 'puma'
 
@@ -41,10 +41,10 @@ gem 'pagy'
 
 # external services
 gem 'rakismet'
-gem 'postmark-rails'
+gem 'postmark-rails', '>= 0.22.0'
 
 # frontend
-gem 'webpacker'
+gem 'webpacker', '>= 5.4.1'
 gem 'sass-rails'
 gem 'yui-compressor'
 gem 'turbolinks'
@@ -81,7 +81,7 @@ group :test do
   gem 'rspec-expectations', require: false
   gem 'rspec-mocks', require: false
   gem 'rspec-support', require: false
-  gem 'rspec-rails', require: false
+  gem 'rspec-rails', '>= 5.0.2', require: false
   gem 'selenium-webdriver'
   gem 'webmock', require: false
 end
